@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM resin/rpi-raspbian
 ENV  DEBIAN_FRONTEND noninteractive
 
 RUN  apt-get -q update; apt-get -y -q --no-install-recommends install python2.7 python-pip
